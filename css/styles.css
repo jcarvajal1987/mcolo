@@ -1,0 +1,180 @@
+/*reset css end*/
+@media (max-width: 758px) and (orientation: portrait) {
+    html {
+        font-size: 130%;
+    }
+}
+@media (max-width: 449px) and (orientation: portrait) {
+    html {
+        font-size: 100%;
+    }
+}
+@media (max-width: 340px) and (orientation: portrait) {
+    html {
+        font-size: 80%;
+    }
+}
+@media (min-width: 701px) and (orientation: portrait) {
+    html {
+        font-size: 178%;
+    }
+}
+.header-home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.bg-container {
+    background-image: url("../img/portada-pro.webp");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex: 1 1 auto;
+}
+.bg-container-2 {
+    width: 100%;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    padding: 50px 0;
+}
+.title-container {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+}
+.title-content {
+    padding: 0 20px 30px 20px;
+    color: #fff;
+    width: 50%;
+}
+.logo-white {
+    width: 80%;
+    margin-bottom: 10px;
+}
+.title {
+    font-size: 2.8rem;
+    line-height: 1em;
+    font-weight: 500;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.description {
+    padding-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.2em;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+.separator {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+.services {
+    text-align: center;
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    padding: 70px 0 128px 0;
+    flex: 1 1 auto;
+    align-items: center;
+}
+.services h2 {
+    font-size: 2.4rem;
+    font-family: 'Red Hat Display', sans-serif;
+    letter-spacing: -0.5px;
+}
+.services nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4%;
+}
+.services nav a {
+    border: 1px solid #000000;
+    outline: 1px solid #fff;
+    height: 235px;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+}
+.services nav a:hover {
+    border: 1px solid #E74D2A;
+    outline: 1px solid #E74D2A;
+}
+.services-item {
+    padding: 15px;
+    flex: 1 1 auto;
+    align-self: center;
+    font-size: 1.4rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.img-contable {
+    width: 43px;
+    margin-bottom: 15px;
+}
+.img-transferencia {
+    width: 56px;
+    margin-bottom: 13px;
+}
+.img-gestion {
+    width: 49px;
+    margin-bottom: 15px;
+}
+.line-title {
+    width: 100%;
+    height: 2px;
+    background-color: #eeeeee;
+    margin-top: 20px;
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: center;
+}
+.line-color {
+    width: 50px;
+    height: 3px;
+    background-color: #E74D2A;
+}
+@media (max-width: 768px),
+(orientation: portrait) {
+    .header-home {
+        max-height: 744px;
+    }
+    .bg-container-2 {
+        background-color: rgb(0 0 0 / 54%);
+    }
+    .title-content {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .logo-white {
+        width: 83%;
+    }
+    .services nav {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, auto);
+        grid-gap: 20px;
+    }
+    .services h2 {
+        font-size: 1.5rem;
+    }
+}
+@media (orientation: landscape) {
+    .header-home {
+        min-height: 100vh;
+    }
+}
+@media (min-width: 1100px) and (orientation: landscape) {
+    .title-container {
+        max-width: 85%;
+    }
+    .services {
+        max-width: 85%;
+    }
+}

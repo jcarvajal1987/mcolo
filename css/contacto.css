@@ -1,0 +1,229 @@
+@media (max-width: 758px) and (orientation: portrait) {
+    html {
+        font-size: 130%;
+    }
+}
+@media (min-width: 341px) and (max-width: 449px) and (orientation: portrait) {
+    html {
+        font-size: 100%;
+    }
+}
+@media (max-width: 340px) and (orientation: portrait) {
+    html {
+        font-size: 80%;
+    }
+}
+@media (min-width: 759px) and (orientation: portrait) {
+    html {
+        font-size: 178%;
+    }
+}
+.services {
+    text-align: center;
+    width: 100%;
+    max-width: 84%;
+    margin: auto;
+    padding: 40px 0 50px 0;
+    flex: 1 1 auto;
+    align-items: center;
+}
+.container-contacto{
+    color: #000;
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-gap: 40px;
+    font-size: 0.9rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1.4rem;
+    text-align: left;
+    padding-top: 40px;
+}
+.container-escribenos{
+    color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 68px;
+    font-size: 0.9rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1.4rem;
+    text-align: left;
+    padding-top: 15px;
+}
+.contact-title{
+    font-size: 2.9rem;
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: initial;
+}
+.contact-group{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 35px;   
+}
+.contact-group-2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 35px;   
+}
+.contact-group a{
+    text-decoration: none;
+    color: #000;
+}
+.gusto{
+    width: 100%;
+    font-size: 0.9rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    margin: 7px 0 25px 5px;
+}
+
+.input-container{
+	position:relative;
+	margin-bottom:25px;
+    display: flex;
+}
+.input-container label{
+	position:absolute;
+    padding: 0 10px;
+    background: #fff;
+	left: 14px;
+    top: 18px;
+	color:#4b4b4b;	
+    pointer-event:none;
+	transition: all 0.2s ease-in-out;
+    line-height: 13px;
+}
+.input-container input{ 
+    border: 1px solid #BFBFBF;
+    padding: 12px;
+    font-size: 1.2rem;
+    border-radius: 11px;
+  background:transparent;
+  width:100%;
+
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border:1px solid #e74d2a;
+}
+.input-container textarea{ 
+    border: 1px solid #BFBFBF;
+    padding: 12px;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.1rem;
+    border-radius: 11px;
+  background:transparent;
+  width:100%;
+
+}
+.input-container textarea:focus{ 
+ border:none;	
+ outline:none;
+ border:1px solid #e74d2a;
+}
+.btn{
+	color:#fff;
+	background-color:#e74c3c;
+	outline: none;
+    text-align: center;
+    border: 0;
+    color: #fff;
+	padding:10px 20px;
+	text-transform:uppercase;
+	border-radius:11px;
+    margin-top: 18px;
+	cursor:pointer;
+	position:relative;
+}
+/*.btn:after{
+	content:"";
+	position:absolute;
+	background:rgba(0,0,0,0.50);
+	top:0;
+	right:0;
+	width:100%;
+	height:100%;
+}*/
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-7px;
+	color: #e74c3c;
+}
+input:-internal-autofill-selected{
+    background: transparent;
+}
+.input-container textarea:focus ~ label,
+.input-container textarea:valid ~ label{
+	top:-7px;
+	color: #e74c3c;
+}
+
+
+
+.img-squares{
+    width: 25px;
+    margin-left: -58px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.img-location{
+    width: 25px;
+}
+.img-mail{
+    width: 25px;
+}
+.img-phone{
+    width: 25px;
+}
+.contact-item{
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+.end {
+    padding-bottom: 50px;
+}
+@media (max-width: 768px),
+(orientation: portrait) {
+    .container-contacto {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        padding-top: 10px;
+    }
+    .container-escribenos {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        padding-top: 10px;
+    }
+    .img-squares{
+        display: none;
+    }
+    .btn{
+        margin-top: 0;
+    }
+    .end {
+        padding-bottom: 0;
+    }
+}
+@media (orientation: landscape) {
+    
+}
+@media (min-width: 1100px) and (orientation: landscape) {
+    .title-container {
+        max-width: 85%;
+    }
+    .services {
+        max-width: 77%;
+    }
+    .iso {
+        max-width: 75%;
+    }
+    .metodo {
+        max-width: 90%;
+    }
+}

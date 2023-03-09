@@ -1,0 +1,397 @@
+@media (max-width: 758px) and (orientation: portrait) {
+    html {
+        font-size: 130%;
+    }
+}
+@media (min-width: 341px) and (max-width: 449px) and (orientation: portrait) {
+    html {
+        font-size: 100%;
+    }
+}
+@media (max-width: 340px) and (orientation: portrait) {
+    html {
+        font-size: 80%;
+    }
+}
+@media (min-width: 759px) and (orientation: portrait) {
+    html {
+        font-size: 178%;
+    }
+}
+.header-home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.bg-container {
+    flex: 1 1 auto;
+    background-image: url("../img/gestion.webp");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.bg-container-2 {
+    width: 100%;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    padding: 50px 0;
+}
+.corner-container {
+    width: 100%;
+    align-items: start;
+    display: flex;
+}
+.corner-container-2 {
+    width: 100%;
+    text-align: right;
+    display: block;
+}
+.img-corner {
+    width: 43px;
+    margin-left: -30px;
+}
+.img-corner-2 {
+    width: 43px;
+    margin-bottom: -30px;
+    margin-right: -30px;
+}
+.img-estudio {
+    width: 100%;
+    max-width: 316px;
+    border-radius: 180px;
+    border: 1px solid #efefef;
+    display: none;
+}
+.img-iso {
+    width: 100%;
+    max-width: 316px;
+    border-radius: 180px;
+    border: 1px solid #efefef;
+    display: none;
+}
+.img-q2 {
+    width: 100%;
+    max-width: 316px;
+}
+.img-beps {
+    width: 316px;
+}
+.center-img {
+    text-align: center;
+}
+.title-container {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+}
+.title-content {
+    padding: 10px 20px 0 20px;
+    color: #000;
+    width: 50%;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+.logo-white {
+    width: 80%;
+    margin-bottom: 10px;
+}
+.title {
+    font-size: 2.8rem;
+    line-height: 1em;
+    font-weight: 500;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.description {
+    padding-top: 20px;
+    font-size: 1.1rem;
+    line-height: 1.2em;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.description-bold {
+    font-weight: 600;
+}
+.separator {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+.services {
+    text-align: center;
+    width: 100%;
+    max-width: 84%;
+    margin: auto;
+    padding: 70px 0 50px 0;
+    flex: 1 1 auto;
+    align-items: center;
+}
+.iso {
+    text-align: center;
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    padding: 70px 0 150px 0;
+    flex: 1 1 auto;
+    align-items: center;
+}
+.services-h2 {
+    font-size: 2.4rem;
+    font-family: 'Red Hat Display', sans-serif;
+    letter-spacing: -0.5px;
+}
+.services-container {
+    color: #000;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-gap: 40px;
+    font-size: 1rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.4rem;
+    text-align: left;
+    align-items: center;
+}
+.iso-container {
+    color: #000;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 40px;
+    font-size: 1rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.4rem;
+    text-align: left;
+    align-items: center;
+    padding-top: 40px;
+}
+.ambiental-container {
+    color: #000;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 40px;
+    font-size: 1rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.4rem;
+    text-align: left;
+    align-items: center;
+    padding-top: 40px;
+    background-image: url("../img/ambiental.webp");
+    background-position:right;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.bold {
+    font-weight: 600;
+}
+.img-check {
+    width: 17px;
+    margin-right: 10px;
+}
+.img-scroll {
+    width: 43px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+.line-title {
+    width: 100%;
+    height: 1px;
+    background-color: #eeeeee;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.line-title-2 {
+    width: 100%;
+    height: 1px;
+    background-color: #eeeeee;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.line-color {
+    width: 50px;
+    height: 3px;
+    background-color: #E74D2A;
+}
+.services-detail {
+    padding: 15px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.services-detail-2 {
+    padding: 5px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.bg-calidad-1 {
+    height: calc(100% - 50px);
+    background-image: url("../img/calidad-1.webp");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.bg-certificacion {
+    /* height: calc(100% - 50px); */
+    height: 100%;
+    background-image: url("../img/certification.webp");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.bg-iso {
+    display: none;
+}
+.bg-iso-2 {
+    /* height: calc(100% - 50px); */
+    height: 100%;
+    background-image: url("../img/iso.webp");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.certification-map {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    gap: 10px;
+}
+.certification-map li {
+    background: #E74D2A;
+    padding: 10px;
+    align-items: center;
+    color: #fff;
+}
+.text-q2 {
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.4rem;
+    text-align: justify;
+    align-items: center;
+    padding: 30px 0 40px 0;
+}
+.text-certification {
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.4rem;
+    text-align: justify;
+    align-items: center;
+    padding: 0 0 40px 0;
+}
+.end {
+    padding-bottom: 50px;
+}
+@media (max-width: 768px),
+(orientation: portrait) {
+    .bg-container-2 {
+        background-color: rgb(255 255 255 / 81%);
+    }
+    .title-content {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .img-corner {
+        margin-left: -10px;
+    }
+    .img-corner-2 {
+        margin-right: -10px;
+    }
+    .line-title {
+        margin-bottom: 65px;
+    }
+    .services-container {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+    .iso {
+        padding: 70px 0 50px 0;
+    }
+    .mobile-off {
+        display: none;
+    }
+    .iso-container {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        padding-top: 10px;
+    }
+    .ambiental-container {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        padding-top: 0;
+        background-image: none;
+    }
+    .bg-calidad-1 {
+        padding-bottom: 30px;
+        text-align: center;
+        background-image: none;
+    }
+    .bg-certificacion {
+        padding-bottom: 30px;
+        text-align: center;
+        background-image: none;
+    }
+    .bg-iso {
+        display: block;
+        margin-bottom: 50px;
+    }
+    .bg-iso-2 {
+        padding-bottom: 0;
+        text-align: center;
+        background-image: none;
+    }
+    .text-q2 {
+        padding-top: 0;
+    }
+    .img-estudio {
+        display: block;
+        margin: auto;
+    }
+    .img-iso {
+        display: block;
+        margin: auto;
+    }
+    .services-h2 {
+        font-size: 1.5rem;
+    }
+    .certification-map {
+        grid-template-columns: 1fr 1fr;
+    }
+    .end {
+        padding-bottom: 0;
+    }
+}
+@media (orientation: landscape) {
+    .header-home {
+        min-height: 100vh;
+    }
+}
+@media (min-width: 1100px) and (orientation: landscape) {
+    .title-container {
+        max-width: 85%;
+    }
+    .services {
+        max-width: 85%;
+    }
+    .iso {
+        max-width: 75%;
+    }
+    .metodo {
+        max-width: 90%;
+    }
+}
