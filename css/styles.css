@@ -139,6 +139,7 @@
     height: 3px;
     background-color: #E74D2A;
 }
+
 @media (max-width: 768px),
 (orientation: portrait) {
     .header-home {
