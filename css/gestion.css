@@ -25,7 +25,6 @@
 }
 .bg-container {
     flex: 1 1 auto;
-    background-image: url("../img/gestion.webp");
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -181,7 +180,7 @@
     text-align: left;
     align-items: center;
     padding-top: 40px;
-    background-image: url("../img/ambiental.webp");
+    background-image: url("../img/ambiental.jpg");
     background-position:right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -234,7 +233,7 @@
 }
 .bg-calidad-1 {
     height: calc(100% - 50px);
-    background-image: url("../img/calidad-1.webp");
+    background-image: url("../img/calidad-1.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -243,7 +242,7 @@
 .bg-certificacion {
     /* height: calc(100% - 50px); */
     height: 100%;
-    background-image: url("../img/certification.webp");
+    background-image: url("../img/certification.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -255,7 +254,7 @@
 .bg-iso-2 {
     /* height: calc(100% - 50px); */
     height: 100%;
-    background-image: url("../img/iso.webp");
+    background-image: url("../img/iso.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

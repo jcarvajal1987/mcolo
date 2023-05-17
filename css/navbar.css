@@ -283,9 +283,7 @@ footer {
     background: rgba(0, 0, 0, 0.8);
     z-index: 30;
     opacity:0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
+   
     pointer-events: none;
     display: flex;
     align-items: center;
@@ -296,6 +294,9 @@ footer {
 .modalDialog:target {
     opacity:1;
     pointer-events: auto;
+     -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
 }
 .modal-1{
     width: 90%;

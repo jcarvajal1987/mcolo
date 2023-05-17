@@ -25,7 +25,6 @@
 }
 .bg-container {
     flex: 1 1 auto;
-    background-image: url(../img/transferencia.webp);
     width: 100%;
     background-position: center;
     background-size: cover;
